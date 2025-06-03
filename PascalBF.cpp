@@ -1,7 +1,7 @@
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows) {
-        vector<vector<int>> pascal;
+    vector<vector<long long int>> generate(int numRows) {
+        vector<vector<long long int>> pascal;
         pascal.resize(numRows);
         for(int i = 0; i < numRows; i++)
         {
@@ -23,5 +23,7 @@ public:
     }
 };
 
+//make it long long int to prevent overflow
 //time complexity--> n+n^2
 //space complexity--> matrix, so n^2
+//to find one single element, we use nCr formula. We run for loop r times as product *= n-i/r-i from i = 1 until i != r. here time is O(r) and space complexity is O(1). 
