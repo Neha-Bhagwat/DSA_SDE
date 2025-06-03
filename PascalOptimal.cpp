@@ -24,6 +24,7 @@ public:
 };
 
 //make it long long int to prevent overflow
-//time complexity--> n+n^2
+//time complexity--> n^2
 //space complexity--> matrix, so n^2
+//this is an optimal solution, since both space and time are use correctly and not wasted anywhere
 //to find one single element, we use nCr formula. We run for loop r times as product *= n-i/r-i from i = 1 until i != r. here time is O(r) and space complexity is O(1). 
