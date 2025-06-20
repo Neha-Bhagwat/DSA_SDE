@@ -8,4 +8,5 @@ Here, I will have the brute force as well as optimized solutions for problems fr
 4. maxSubarrayOpt.cpp
 5. noOfInversionsOpt.cpp
 6. sortArray0-2DNF.cpp
-7. look once at stockOptimal.cpp
+7. countPathsMathsOpt.cpp
+8. look once at stockOptimal.cpp
