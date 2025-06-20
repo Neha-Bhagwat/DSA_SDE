@@ -1,6 +1,7 @@
 class Solution {
 public:
 //brute force algorithm, we use recursion and make a recursive tree.
+//TC->O(2^n) SC->O(2^n) stack
     int countPaths(int m, int n, int i, int j)
     {
         //base case1
