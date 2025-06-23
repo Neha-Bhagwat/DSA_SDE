@@ -21,3 +21,8 @@ public:
         return {};
     }
 };
+
+//there is another approach in a similar situation. 
+//you can sort the array and then use a two pointer approach
+//take one ptr at the start the other at the end, and if the sum is greater than target, move the back pointer behind
+//vice versa
