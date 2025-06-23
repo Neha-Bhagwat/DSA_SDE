@@ -1,4 +1,6 @@
 //this solution uses hashmaps. if no number matches target-num inside the hashmap, you add number to the hashmap
+//TC-> O(n*logn) for ordered map. if you use unordered, TC->O(n) to O(n^2)
+//SC-> O(n)
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
