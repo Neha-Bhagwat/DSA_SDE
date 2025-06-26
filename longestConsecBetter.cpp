@@ -39,3 +39,4 @@ public:
 };
 
 //tc is O(n2), and sc is O(1)
+// one more problem is that this causes the array to change
