@@ -10,6 +10,11 @@
  */
 
 //logic:in place, change the direction of the links of all the elements
+//here, we will first point the dummy node to the first node.
+//then, we will make head->next as dummy
+//them, we will make dummy itself head
+//then, we will point head to the next to keep traversing
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
