@@ -13,4 +13,7 @@ Here, I will have the brute force as well as optimized solutions for problems fr
 9. 4sum.cpp
 10. reversing a linked list
 11. addtwollnums.cpp
-12. deletingnthlastnode.cpp 
+12. deletingnthlastnode.cpp
+13. reversing k parts of ll
+14. flattening ll
+15. palindrome of ll
