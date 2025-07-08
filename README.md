@@ -17,3 +17,5 @@ Here, I will have the brute force as well as optimized solutions for problems fr
 13. reversing k parts of ll
 14. flattening ll
 15. palindrome of ll
+16. r-palindrome partitioning
+17. r-combination sum II
