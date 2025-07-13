@@ -1,3 +1,4 @@
+//here, we just search linearly if we can find anything that matches M
 class Solution {
 public:
   int NthRoot(int N, int M) {
