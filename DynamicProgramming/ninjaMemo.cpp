@@ -19,7 +19,7 @@ class Solution {
                 }
                 
             }
-            return maxi;
+            return dp[idx][last] = maxi; //adding dp[idx][last] = maxi here will store dp[0][last]'s value as well
         }
         
         int points;
@@ -29,7 +29,7 @@ class Solution {
             if(last!=i)
             {
                 if(dp[day-1][i] != -1) return dp[day-1][i];
-                else points = arr[day][i] + pointRecur(day-1, i, arr, dp); //gives the previous tree ka max points score
+                points = arr[day][i] + pointRecur(day-1, i, arr, dp); //gives the previous tree ka max points score
                 maxi = max(points,maxi);
             }
         }
