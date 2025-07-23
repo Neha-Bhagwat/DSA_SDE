@@ -1,3 +1,8 @@
+//Q. Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.
+//Note: You can only move either down or right at any point in time.
+
+//first think and write down the recursive logic. then it only takes like 2 mins to add the dp logic.
+
 class Solution {
 public:
     int recur(int row, int col, vector<vector<int>>& grid, vector<vector<int>>& dp)
