@@ -1,6 +1,8 @@
 #Here I will have all the problems from different OAs segregated under various sections
 
 ##vectors (array)-
+1.  Palindrome and changes - https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/ (can do at once)
+2.  
 
 ##BitMask-
 
