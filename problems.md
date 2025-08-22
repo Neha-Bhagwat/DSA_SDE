@@ -13,6 +13,7 @@
 2. 
 
 ##Graphs-
+1. Connect the country 2 - https://studyx.ai/homework/103290511-3-connect-the-country-2-there-are-n-cities-in-a-country-each-city-has-some-cost
 
 ##Linked Lists-
 
