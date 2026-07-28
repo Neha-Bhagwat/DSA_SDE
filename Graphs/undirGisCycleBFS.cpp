@@ -55,6 +55,8 @@ public:
     //the function where we call each vertex to look for a cycle in it
     bool isCycle(int V, vector<vector<int>>& edges) 
     {
+        // if more edges than vertices
+        if(E>=V) return true;
         int n = V;
 
         vector<vector<int>> adj = createAdj(V, edges);
