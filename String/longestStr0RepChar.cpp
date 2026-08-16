@@ -1,3 +1,5 @@
+// Even better approach would be to use a hashset to store the characters that are already present. Maybe ill do that later if i get the time
+
 // 3. Longest Substring Without Repeating Characters
 // Given a string s, find the length of the longest substring without duplicate characters.
 
